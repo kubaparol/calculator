@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/ae96cd6a8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="calculator">
+        <div class="calculating">
+            <div class="result-panel">
+                <p class="prev-number"></p>
+                <p class="curr-sign"></p>
+                <p class="curr-number"></p>
+            </div>
+            <div class="numbers-panel">
+                <div class="panel__element clean">C</div>
+                <div class="panel__element sign">^</div>
+                <div class="panel__element sign">/</div>
+                <div class="panel__element number">7</div>
+                <div class="panel__element number">8</div>
+                <div class="panel__element number">9</div>
+                <div class="panel__element sign">x</div>
+                <div class="panel__element number">4</div>
+                <div class="panel__element number">5</div>
+                <div class="panel__element number">6</div>
+                <div class="panel__element sign">-</div>
+                <div class="panel__element number">1</div>
+                <div class="panel__element number">2</div>
+                <div class="panel__element number">3</div>
+                <div class="panel__element sign">+</div>
+                <div class="panel__element number">0</div>
+                <div class="panel__element number">.</div>
+                <div class="panel__element equals">=</div>
+            </div>
+        </div>
+        <div class="history">
+            <ul class="history__list">History:<br><span class="list__delete">Press the item to delete</span>
+            </ul>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
